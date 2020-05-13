@@ -10,3 +10,10 @@ num = int(num)
 
 # YOUR CODE HERE
 
+def sign(num):
+    if num % 2 == 0:
+        print("Evil!")
+    else:
+        print("Odd!")
+
+sign(num)
